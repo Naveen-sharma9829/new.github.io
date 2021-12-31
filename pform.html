@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="pform.css">
+</head>
+<body>
+    <div class="container">
+    <h1 class="heading">Payment_Form</h1>
+    <hr>
+    <p>name: <input type="name"></p>
+    <fieldset>
+        <legend>Gender</legend>
+    <p>
+        male <input type="radio" name="Gender" id="Gender">
+        female <input type="radio" name="Gender" id="Gender"> 
+    </p>
+</fieldset>
+<p>address: <textarea name="address" id="address" cols="100" rows="6"></textarea></p>
+<p>Email-id: <input type="email" name="Email-id" id="Email-id"></p>
+<p>Pincode:<input type="number" name="Pincode" id="Pincode"></p>
+<h2>Payment_Information</h2>
+<p>Card type:
+    <select name="Card_Type" id="Card_Type">
+        <option value="---Select-Card---">---Select-Card---</option>
+        <option value="Visa">Visa</option>
+        <option value="Rupay">Rupay</option>
+        <option value="Master-Card">Master-Card</option>
+    </select>
+</p>
+<p>Exp_Date: <input type="date" name="Exp_Date" id="Exp_Date"></p>
+<p>CVV: <input type="password" name="password" id="password"></p>
+<input type="submit" value="Pay_Now">
+</div>
+   
+    
+</body>
+</html>
